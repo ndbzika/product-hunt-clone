@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Products from '../components/Products';
 
 const Home = () => {
-    const [products, setProducts] = useState([
+    const [products, /*setProducts*/] = useState([
         {
             id: '1',
             name: 'Mouse',

@@ -5,19 +5,37 @@
     @include flexCenter(row, center);
     padding: 10px;
     gap: 10px;
-}
-.product-container{
-    background-color: $cor_fundo_produto;
 
-    width: 200px;
-    height: 100px;
-    border-radius: 10px;
-
-    @include flexCenter(column, center);
+    .product-container{
+        background-color: $cor_fundo_produto;
     
-    padding: auto;
+        width: 200px;
+        height: 100px;
+        border-radius: 10px;
+    
+        @include flexCenter(column, space-between);
+        
+        padding: 5px;
+    
+        .product-title{
+            color: $cor_do_texto;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .product-details{
+            color: $background_color;
+            font-size: 18px;
+        }
 
-    .product-title{
-        color: $cor_do_texto;
+        .buttons-container{
+            .get-product-button{
+                border: none;
+                color: #eee;
+                background-color: $cor_do_botao;
+                padding: 5px;
+                border-radius: 3px;
+                margin: 5px auto;
+            }
+        }   
     }
 }
