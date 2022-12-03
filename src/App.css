@@ -1,9 +1,10 @@
-.container{
-  background-color: #f7f4e8;
+.container {
+  padding: 10px;
+  background-color: #d1b68d;
   max-width: 90vw;
   height: 90vh;
-  margin: 10px auto;
+  margin: 15px auto;
   padding: 5px;
   text-align: center;
-
-}
+  border-radius: 15px;
+}/*# sourceMappingURL=App.css.map */
